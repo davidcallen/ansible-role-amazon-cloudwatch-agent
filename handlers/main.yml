@@ -9,6 +9,7 @@
     - ansible_virtualization_type != "container"
     - ansible_virtualization_type != "containerd"
     - ansible_virtualization_type != "openvz"
+    - ansible_virtualization_type != "virtualbox"
   tags:
     - reload
 
